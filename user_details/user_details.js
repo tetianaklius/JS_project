@@ -47,6 +47,7 @@ function show_user_info(user) {
 
     button.addEventListener("click", () => {
         show_user_posts(user.id);
+        button.disabled=true;
     });
     button.addEventListener("mouseover", () => {
         button.style.cursor = "pointer";
