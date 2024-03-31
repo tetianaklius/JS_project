@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow-y: hidden;
+    background-image: url("images/main.avif");
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+}
+
+.users_block {
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-around;
+    margin-top: 2vh;
+}
+
+.user_preview {
+    width: 46%;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(212, 207, 202, 0.62);
+}
+
+.user_initials {
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.user_details {
+    height: 30%;
+    width: 30%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.43);
+    font-weight: 300;
+    font-size: medium;
+}
