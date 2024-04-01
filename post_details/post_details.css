@@ -45,6 +45,16 @@ h3 {
     border-left: solid 5px rgba(89, 62, 32, 0.49);
 }
 
+body a {
+    text-decoration: none;
+    font-size: xxx-large;
+    color: rgba(255, 255, 255, 0.53);
+    padding-left: 3vw;
+    padding-bottom: 8vh;
+    margin-right: 97vw;
+    position: fixed;
+}
+
 #comments {
     display: flex;
     flex-wrap: wrap;

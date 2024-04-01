@@ -17,9 +17,12 @@ function show_post(post) {
     for (const key in post) {
         let key_div = document.createElement("div");
         key_div.innerText = `${key}: ${post[key]}`;
-
+        console.log(post.userId)
         post_div.appendChild(key_div);
     }
+
+    let prev_page = document.getElementsByTagName("a")[0];
+    prev_page.href = `../user_details/user-details.html?id=${post.userId}`
 }
 
 function show_comments(comments) {

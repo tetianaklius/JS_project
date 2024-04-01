@@ -1,5 +1,4 @@
 let userId = new URL(location.href).searchParams.get("id");
-console.log(userId);
 
 fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
     .then(res => res.json())
